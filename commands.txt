@@ -1,0 +1,566 @@
+    1  su -
+    2  sudo passwd root
+    3  su -
+    4  sudo systemctl status ssh
+    5  su -
+    6  sudo systemctl start xrdp 
+    7  sudo systemctl ststus xrdp 
+    8  sudo systemctl status xrdp 
+    9  ping 8.8.8.8
+   10  ping google.com
+   11  su -
+   12  sudo apt-get install openjdk-8
+   13  sudo su -
+   14  su -
+   15  reports
+   16  date+%f
+   17  pwd
+   18  mkdir-p Linux{cmd,apps,services}
+   19  sudo-i
+   20  apt install nginx
+   21  su - root
+   22  su - root
+   23  su -
+   24  hostnamectl s
+   25  hostnamectl status
+   26  hostnamectl set-hostname ubu57
+   27  hostnamectl status
+   28  who
+   29  ssh 10.0.1.73
+   30  ssh-keygen
+   31  su -i
+   32  su - root 
+   33  vim file1.text
+   34  vim file2.text
+   35  ls -l
+   36  mkdir vimdocs
+   37  cd vimdocs/
+   38  ls -l
+   39  scp student@10.0.1.57:/home/student/vim file1.text/home/student/vimdocs/
+   40  df
+   41  cd
+   42  su - root
+   43  mkdir gitSample1
+   44  pwd
+   45  mkdir gitSample1
+   46  cd gitSample1
+   47  pwd
+   48  git init
+   49  nano index.html
+   50  su - root
+   51  mkdir gitSample1
+   52  git init
+   53  cd gitSample1
+   54  nano index.html
+   55  cat index.html
+   56  git status
+   57  git add index1.html
+   58  git commit -m "initial project"
+   59  git status
+   60  git add index.html
+   61  git commit -m "Initial project"
+   62  git config --local user.name "RiyazD"
+   63  git config --global user.name "RiyazD"
+   64  git config --global user.name "Riyazdu"
+   65  git config --local user.name "Riyazdu"
+   66  git config --global user.email riyazdudekula0313@gmail.com
+   67  git config --local user.email riyazdudekula0313@gmail.com
+   68  git commit -m "initial project"
+   69  git status
+   70  git commit -a -m 
+   71  git commit -a -m "upload file1"
+   72  nano index1.html
+   73  git status
+   74  git log
+   75  nano index2.html
+   76  nano index3.html
+   77  git status
+   78  git add .
+   79  git commit -m "Added File2 & File3"
+   80  git log
+   81  git ls-files
+   82  nano index4.html
+   83  ls
+   84  git ls-files
+   85  nano index1.html
+   86  git status
+   87  git add .
+   88  git commit -m "Added File4 & Modified File"
+   89  git commit -m "Added File4 & Modified File1"
+   90  git log
+   91  git log --oneline
+   92  nano index2.html
+   93  git diff index2.html
+   94  git add .
+   95  git diff --staged index2.html
+   96  git diff index2.html
+   97  nano index2.html
+   98  git diff index2.html
+   99  git diff --staged index2.html
+  100  history
+  101  git diff --staged
+  102  cat index2.html
+  103  git commit id
+  104  git commit -m "updated file2 for diff "
+  105  git log -n5
+  106  git log --oneline
+  107  git diff fb44a81 428fa7c
+  108  git rm index4.html
+  109  git ls -files
+  110  git ls - files
+  111  ls
+  112  git ls-files
+  113  git status
+  114  git rm --cached index4.html
+  115  git add .
+  116  git commit -m "Added index4 after rm "
+  117  ls
+  118  git ls-files
+  119  tac history
+  120  pwd
+  121  git version
+  122  cd /home/student
+  123  mkdir gitSample
+  124  pwd
+  125  cd gitSample
+  126  pwd
+  127  ls -a
+  128  cd /home/student
+  129  ls -l
+  130  cd gitSample1
+  131  ls -a
+  132  nano index5.html
+  133  cat index.html
+  134  git status 
+  135  ls
+  136  su -
+  137  history
+  138  git Sample1
+  139  gitSample1
+  140  cd gitSample1
+  141  git status
+  142  ls
+  143  git ls-fies
+  144  git ls-files
+  145  nano .gitignore
+  146  git add .
+  147  git commit -m "Added .gitignore"
+  148  git status 
+  149  nano index5.html
+  150  git status 
+  151  git ls-files
+  152  nano  index4.html
+  153  git status
+  154  ls
+  155  git ls-files
+  156  nano index.html
+  157  nano index4.html
+  158  nano .gitignore
+  159  git status
+  160  git commit -a -m "Modified .gitigonre"
+  161  git status
+  162  nano index4.html
+  163  git status
+  164  git restore index4.html
+  165  nano .gitignore
+  166  nano index6.html
+  167  git commit -a -m "Include index6.html"
+  168  git ls-files
+  169  ls
+  170  git commit -m " Modified index4.html "
+  171  git ls-files
+  172  nano .gitignore
+  173  git -a -m "index4.html"
+  174  git commit -a -m "index4.html"
+  175  ls
+  176  git ls-files
+  177  nano index4.html
+  178  git add .
+  179  git tag -a V1.1 -m "Tagged V1.1
+  180  git tag -a V1.1 -m "Tagged V1.1"
+  181  git tag
+  182  git commit -a -m "Ater Adding tag"
+  183  git tag
+  184  git log --oneline
+  185  history
+  186  ~ git status
+  187  history
+  188  cd gitSample1
+  189  ls
+  190  git ls-files
+  191  git tag
+  192  git log --oneline 
+  193  nano index3.html
+  194  vi index3.html
+  195  pwd
+  196  cd gitSample1
+  197  ls
+  198  git status
+  199  git restore index3.html
+  200  git status
+  201  git log --oneline
+  202  git checkout -b b1 master
+  203  git status 
+  204  git log--oneline
+  205  git log --oneline
+  206  git checkout master
+  207  git status 
+  208  nano index2.html
+  209  git status 
+  210  git commit -a -m 
+  211  git commit -a -m "updated file2 after branch"
+  212  git log --oneline
+  213  git status
+  214  git checkout master
+  215  git checkout branch
+  216  git checkout b1
+  217  git status 
+  218  nano index1.html
+  219  git status
+  220  git commit -a -m "updated file1 in b1"
+  221  git status 
+  222  git log --oneline
+  223  history
+  224  git status
+  225  git checkout master
+  226  git status
+  227  git status 
+  228  git log --oneline 
+  229  git merge b1
+  230  git log --oneline
+  231  cat index1.html
+  232  git status
+  233  git checkout master
+  234  git checkout -b b3 master
+  235  git status 
+  236  nano index7.html
+  237  git add .
+  238  git commit -m "Implemented feat10 in b3"
+  239  git log --oneline
+  240  git checkout master
+  241  git status 
+  242  git log --oneline
+  243  nano index7.html
+  244  add .
+  245  git add .
+  246  git commit -m "Implemented feat11 in master"
+  247  git log --oneline
+  248  git status
+  249  git merge b3
+  250  nano index7.html
+  251  git commit -a -m "Resolved the conflict"
+  252  git log --oneline
+  253  cat index7.html
+  254  git checkout b3
+  255  git status
+  256  nano index7.html
+  257  git add .
+  258  nano index7.html
+  259  git add .
+  260  git commit -m "Implemented feat10 in b3"
+  261  index1.html
+  262  nano index1.html
+  263  git status
+  264  cat index1.html
+  265  nano index1.html
+  266  nano index2.html
+  267  git status
+  268  cat index1.html
+  269  cat index2.html
+  270  git log --oneline
+  271  git checkout 267b92d
+  272  cat index1.html
+  273  git commit -m "Updtedfor feature15"
+  274  git log --oneline
+  275  git commit adb1ff0
+  276  git checkout index1.html
+  277  cat index1.html
+  278  cd gitSample2
+  279  cd .
+  280  cd ..
+  281  cd gitSample2
+  282  git status
+  283  git checkout -b b3 master
+  284  git checkout -b b3
+  285  nano index3.html
+  286  add .
+  287  git add .
+  288  git commit -m "updated file3"
+  289  git status
+  290  git checkout b3
+  291  git checkout master
+  292  checkout maater
+  293  ls
+  294  git checkout master
+  295  git status
+  296  cd ..
+  297  pwd 
+  298  ls
+  299  rm gitSample2
+  300  cd gitSample2
+  301  git status
+  302  git checkout -b master
+  303  git status 
+  304  git status
+  305  git checkout -b b2 master
+  306  git status
+  307  nano index3.html
+  308  git status 
+  309  git comit -a -m "Updated file3 after branch"
+  310  git commit -a -m "Updated file3 after branch"
+  311  git log --oneline 
+  312  git checkout b2
+  313  git checkout master
+  314  git status 
+  315  nano index4.html
+  316  git commit -a -m "updated file4 in master"
+  317  git log --oneline
+  318  git checkout b2
+  319  git log --oneline
+  320  git status
+  321  git checkout master
+  322  git merge b2
+  323  cat index4.html
+  324  cd ..
+  325  cd gitSample22
+  326  pwd 
+  327  mkdir gitSample2
+  328  cd gitSample12
+  329  cd gitSample2
+  330  git init
+  331  ls -a
+  332  cd .
+  333  cd ..
+  334  cd gitSample1
+  335  cd ..
+  336  cd gitSample2
+  337  nano index3.html
+  338  git status
+  339  git checkout master
+  340  cd ..
+  341  cd gitSample1
+  342  git checkout b2
+  343  git checkout master
+  344  pwd
+  345  ls
+  346  cd gitS2
+  347  ls
+  348  git ls-files
+  349  git ls-files -s
+  350  git checkout master
+  351  git checkout -b Branch1 
+  352  nano sample1.htmlgit checkout
+  353  git status
+  354  git log --oneline
+  355  git checkout master
+  356  nano sample1.html
+  357  git checkout branch1
+  358  git checkout Branch1
+  359  git commit -a -m "updated file2 after branch "
+  360  git log --oneline
+  361  git checkout master
+  362  nano sample2.html 
+  363  git status
+  364  git commit -a -m "upadted file2 "
+  365  git log --oneline
+  366  git checkout master
+  367  git merge Branch1
+  368  cat sample1.html
+  369  nano sample3.html
+  370  nano .gitigonre
+  371  git add .
+  372  git commit -m "Added .gitignore"
+  373  git status
+  374  git commit -a -m "Modified after .gitignore"
+  375  ls
+  376  git ls-files
+  377  git ls-files -s
+  378  git checkout master
+  379  nano sample3.html
+  380  git commit -a -m "modified file3 for conflict"
+  381  git status
+  382  git checkout Branch1
+  383  nano sample3.html
+  384  git commit -a -m "modified file3 for conflict in Branch3
+  385  git commit -a -m "modified file3 for conflict in Branch3"
+  386  git status 
+  387  git log --oneline
+  388  git checkout master
+  389  git merge Branch1
+  390  nano sample3.html
+  391  git log --oneline
+  392  cat sample3.html
+  393  git remote add origin https://github.com/Riyazdu/gitS2.git
+  394  git push -u origin master
+  395  git push -u  origin master
+  396  git remote show origin
+  397  git push -u  origin master
+  398  ls
+  399  git ls-files
+  400  git commit -a -m " file4,5,6 after in .gitignore"
+  401  ls
+  402  nano sample3.html
+  403  nano sample5.html
+  404  timedatectl
+  405  timedatectl list-timezones |grep Asia/singapore
+  406  timedatectl list-timezones
+  407  timezonectl set-timezone Asia/Singpore
+  408  timedatectl set-timezone Asia/Singpore
+  409  cd ...
+  410  cd .
+  411  cd
+  412  timedatectl list-timezones
+  413  timedatectl list-timezones |grep Asia/Singpore
+  414  timedatectl set-timezone Asia/Singapore
+  415  timedatectl
+  416  ssh-keygen
+  417  ssh student@10.0.1.73
+  418  su -
+  419  ssh username
+  420  su -
+  421  systemctl status tomcat
+  422  systemctl start tomcat
+  423  systemctl status tomcat
+  424  su -
+  425  history
+  426  cd gitS2
+  427  history
+  428  ls
+  429  git ls-files
+  430  history
+  431  nano /etc/ntp:port
+  432  nano /etc/ntp 
+  433  nano /etc/ntp : port
+  434  install chrony
+  435  Install chrony
+  436  pwd
+  437  ls
+  438  cd gitSample1
+  439  ls
+  440  git branch
+  441  git checkout -b b1 master
+  442  nano index7.html
+  443  git add .
+  444  git -a -m "implemented for b1"
+  445  git commit -m "implemented for branch b1"
+  446  git status
+  447  git push -u origin b1
+  448  git checkout master
+  449  git status
+  450  git fetch origin
+  451  git pull origin
+  452  git log --oneline
+  453  nano index1.html
+  454  git commit -m "updated for u1 "
+  455  git commit -a -m "updated for u1 "
+  456  git push -u origin master
+  457  git pull origin
+  458  vi index1.html
+  459  cd ....
+  460  cd ..
+  461  cd .
+  462  cd
+  463  systemctl status tomcat
+  464  syatemctl restart tomcat
+  465  syatemctl start tomcat
+  466  su -
+  467  timedatectl 
+  468  c
+  469  timedatectl 
+  470  timedatectl list-timezones
+  471  timedatectl list-timezones|grep kolkata
+  472  timedatectl set-timezone Asia/Kolkata
+  473  timedatectl
+  474  su -
+  475  git reset --help
+  476  git -h reset
+  477  su -
+  478  users
+  479  ansible webservers --list-hosts
+  480  ansible webserver --list-hosts
+  481  cd adhoc
+  482  ansible webserver --list-hosts
+  483  ansible webservers --list-hosts
+  484  Ansible webservers --list-hosts
+  485  cd adhoc
+  486  mkdir adhoc
+  487  cd adhoc
+  488  touch ansible.cfg
+  489  ls
+  490  cd ansible.cfg
+  491  ls
+  492  ansible servers --list-hosts
+  493  ansible all --list-host
+  494  ansible all --list-hosts
+  495  ansabile webserver --list-hosts
+  496  ansible webservers --list-hosts
+  497  ls
+  498  ls -la
+  499  ansible webservers --list-hosts
+  500  ping 10.0.1.74
+  501  ls
+  502  ansible dbservers --list-hosts
+  503  ansible dbservers  --list-hosts
+  504  cd adhoc
+  505  ansible all --list-hosts
+  506  cd
+  507  cd ansible/adhoc
+  508  cd ansible
+  509  cd Ansible/adhoc
+  510  ansible dbservers  --list-hosts
+  511  sudo apt update
+  512  cd Ansible
+  513  sudo apt instll ansible
+  514  su -
+  515  ansible --version
+  516  pwd
+  517  cd
+  518  cd etc/sudoes.d
+  519  su -
+  520  ssh student@10.0.1.58
+  521  cd /etc/sudoers.d/
+  522  ls
+  523  nano studentnopass
+  524  remove studentnopass
+  525  rmstudentnopass
+  526  cd
+  527  cat /etc/shadow/
+  528  su -
+  529  cd Ansible/adhoc
+  530  ls
+  531  ansible myservers -m apt -a "src=cal2025.txt dest=/temp"
+  532  ansible myservers -m copy -a "src=cal2025.txt dest
+  533  ansible myservers -m copy -a "src=cal2025.txt dest=/tmp"
+  534  ls
+  535  cd
+  536  cd /etc/sudoers.d/
+  537  ls
+  538  nano studentpass
+  539  sudo nano studentpass
+  540  su -
+  541  cd
+  542  ssh student@10.0.1.58
+  543  cd Ansible/adhoc
+  544  la
+  545  ansible myservers -m copy -a "src=cal2025.txt dest=/tmp"
+  546  ssh-copy-id student@10.0.1.57
+  547  ansible myservers -m copy -a "src=cal2025.txt dest=/tmp"
+  548  ssh student@10.0.1.58
+  549  ansible dbservers -m apt -a "name=vim state =present"
+  550  ls
+  551  cd
+  552  cd Ansible
+  553  ls
+  554  cd playbooks
+  555  ls
+  556  ansible -playbooks playbook1.yml --syntax-check
+  557  ansible-playbooks playbook1.yml --syntax-check
+  558  ansible-playbook playbook1.yml --syntax-check
+  559  ansible-playbook playbook1.yml 
+  560  cd
+  561  cd ansible
+  562  cd Ansible
+  563  ansible-playbook playbook1.yml 
+  564  ansible-playbook playbook1.yml --syntax-check
+  565  history
+  566  history >commands.txt

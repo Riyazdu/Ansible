@@ -1,3 +1,7 @@
+[controlnode]
+10.0.1.57
+
+[allservers]
 10.0.1.57
 10.0.1.58
 
