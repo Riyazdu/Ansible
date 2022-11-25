@@ -1,8 +1,9 @@
 ---
-- name: copying file by playbook
+- name: copying file 
   host: allservers
-  task:
+  tasks:
    - name: copying cal2025.txt
      copy:  
       src: /home/student/Ansible/adhoc/cal2025.txt
       dest: /tmp
+      mode: '0755'
